@@ -9,6 +9,7 @@
   font-size: 62.5%; /* 1rem = 10px */
   --primary-color: #ff9900;
   --paragraph: #7d7987;
+  --line-color: #eceff2;
 }
 
 body {
@@ -45,7 +46,8 @@ a {
   color: var(--primary-color);
 }
 
-.hero p {
+.hero p,
+footer {
   color: var(--paragraph);
   font-size: 1.4rem;
   line-height: 2.8rem;
@@ -53,6 +55,16 @@ a {
 
 .hero p + p {
   margin: 3rem 0rem 7.2rem;
+}
+
+footer .line {
+  width: 56.8rem;
+  height: 0rem;
+
+  margin-inline: auto;
+  margin-bottom: 0.8rem;
+
+  border: 1px solid var(--line-color);
 }
 
 footer a + a {
