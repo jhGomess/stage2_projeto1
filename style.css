@@ -14,6 +14,13 @@
 body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
+
+  text-align: center;
+}
+
+.hero {
+  width: 59.2rem;
+  margin-inline: auto;
 }
 
 h1 {
@@ -34,4 +41,6 @@ a {
 
 p {
   color: var(--paragraph);
+  font-size: 1.4rem;
+  line-height: 2.8rem;
 }
