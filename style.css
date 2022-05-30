@@ -57,6 +57,10 @@ footer {
   margin: 3rem 0rem 7.2rem;
 }
 
+footer {
+  margin-bottom: 3.2rem;
+}
+
 footer .line {
   width: 56.8rem;
   height: 0rem;
@@ -69,4 +73,10 @@ footer .line {
 
 footer a + a {
   margin-left: 2.8rem;
+}
+
+.balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
